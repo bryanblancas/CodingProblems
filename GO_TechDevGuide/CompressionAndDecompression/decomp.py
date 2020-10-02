@@ -96,6 +96,6 @@ def decomp(expression):
 if __name__ == '__main__':
 	# string = "bryanisraelblancaspereztengo2[dos]aniosymegusta3[4[a]bry]adios"
 	# string = "2[3[a]b]"
-	# string = "1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[xx]]]]]]]]]]]]]]]]]]]]"
-	string = "2[2[abbb]c]"
+	string = "1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[1[xx]]]]]]]]]]]]]]]]]]]]"
+	# string = "2[2[abbb]c]"
 	print(decomp(string))
